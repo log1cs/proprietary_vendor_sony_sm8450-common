@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8450-common/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/sony/sm8450-common/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
     vendor/sony/sm8450-common/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
+    vendor/sony/sm8450-common/proprietary/product/etc/permissions/com.sonymobile.photopro.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sonymobile.photopro.xml \
     vendor/sony/sm8450-common/proprietary/product/etc/permissions/jp.co.sony.mc.euiccmemoryreset.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/jp.co.sony.mc.euiccmemoryreset.xml \
     vendor/sony/sm8450-common/proprietary/product/etc/permissions/privapp-permissions-google-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-product.xml \
     vendor/sony/sm8450-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -1168,11 +1169,18 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
+    CameraAddonPermission \
+    CameraCommonPermission \
+    SomcCinemaPro-YodoNagara \
+    SomcVideoPro-YodoNagara \
     uimgbaservice \
+    CameraCommon \
+    CameraPanorama-YodoNagara \
     EuiccGoogle \
     EuiccMemoryReset \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
+    SomcPhotoPro-Nagara \
     ImsRcsService \
     QCC \
     QtiTelephony \
